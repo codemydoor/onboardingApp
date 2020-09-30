@@ -19,7 +19,7 @@ function OnlineShopping() {
         <Text style={styles.buttonText}>Next</Text>
       </TouchableOpacity>
       <View style={styles.mediaContainer}>
-        <Text style={styles.next}>Previous</Text>
+        {/* <Text style={styles.next}>Previous</Text> */}
         <Entypo
           name="dots-three-horizontal"
           size={40}
@@ -76,7 +76,6 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
   },
   next: {
-    flex: 3,
     marginVertical: 15,
     color: "#69686A",
     fontSize: 16,
@@ -87,6 +86,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   icon: {
-    flex: 3,
+    flex: 5,
+    marginLeft: 150,
   },
 });
